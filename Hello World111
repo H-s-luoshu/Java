@@ -1,0 +1,51 @@
+Java程序基本概念
+
+一个Java程序可以认为是一系列对象的集合，而这些对象通过调用彼此的方法来协同工作，其中：
+
+对象（object）：代表现实世界中可以明确标识的一个实体，存在独特的标识、状态和行为。例如，一条鱼是一个对象，它的状态有：颜色、品种；行为有：漫游、鱼跃等。
+
+类（class）：是创建对象的模板，用于描述一类对象的行为和状态。
+
+方法：方法就是行为，一个类可以有很多方法。
+
+一段可执行的Java代码
+
+下面给出了一段最简单的Java代码：
+
+public class HelloJavaWorld {
+  public static void main(String[] args){
+      System.out.print("Hello Java World");
+  }
+}
+其中，我们定义了一个类:public class HelloJavaWorld，这个类是 public 公共类型的，类名是HelloJavaWorld。
+
+在这个类中，我们定义了一个方法即：public static void main(String[] args)，它是程序执行的起点，具体功能与C/C++中的main()函数作用是一样的。至于public、static和void的含义，我们在后续实训课程中再深入介绍。
+
+最后，在主方法中我们调用了JDK类包的一个方法：System.out.print()，用来将程序的内容输出到控制台。
+
+如果同学们对上述内容感到困惑，那么请不要担心也不要急躁，坚持跟随我们实训的步伐向前，很快所有的疑惑将迎刃而解。
+
+编程要求
+
+现在，你是否已经迫不及待地要用Java语言向世界打声招呼啦？请直接修改右侧代码编辑器中的Java代码，具体要求是：
+
+补全符合语法规范的主程序入口函数，即main()函数；
+向控制台输出：”欢迎来到Java世界”。
+
+
+package step1;
+
+public class HelloJavaWorld {	
+	/********** Begin *********/
+    
+    // 请补全符合规范的main()函数
+     public static void main(String[] args){
+        
+        // 请喊出的Java世界的第一个口号
+		System.out.print("欢迎来到Java世界");
+        
+	}
+    
+	/********** End *********/		
+}
+
